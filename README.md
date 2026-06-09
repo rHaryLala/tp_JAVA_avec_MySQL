@@ -27,6 +27,14 @@ Lien direct (table - local) : [images/table.png](images/table.png)
 
 Lien direct (table - externe) : [https://github.com/user-attachments/assets/17f449ca-ecf1-49c9-a86f-a71b92b1a6df](https://github.com/user-attachments/assets/17f449ca-ecf1-49c9-a86f-a71b92b1a6df)
 
+Exemple (phpMyAdmin) :
+
+![phpMyAdmin](images/phpmyadmin.png)
+
+Exemple (table) :
+
+![Table employe](images/table.png)
+
 ## Prérequis
 - Java JDK installé
 - IntelliJ IDEA (ou un autre IDE)
