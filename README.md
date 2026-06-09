@@ -9,9 +9,23 @@ Placez vos captures dans le dossier `images/` et nommez-les comme ci-dessous pou
 - `images/phpmyadmin.png` — écran phpMyAdmin (création de la base)
 - `images/table.png` — structure/ligne de la table `employe`
 
+Si une image ne s'affiche pas dans le rendu Markdown, cliquez sur le lien direct ci-dessous pour l'ouvrir.
+
+Lien direct (console - local) : [images/console.png](images/console.png)
+
+Lien direct (console - externe) : [https://github.com/user-attachments/assets/8fc88817-7d14-4e3c-94f7-2b9084129f5d](https://github.com/user-attachments/assets/8fc88817-7d14-4e3c-94f7-2b9084129f5d)
+
 Exemple :
 
 ![Console output](images/console.png)
+
+Lien direct (phpMyAdmin - local) : [images/phpmyadmin.png](images/phpmyadmin.png)
+
+Lien direct (phpMyAdmin - externe) : [https://github.com/user-attachments/assets/af7d055a-1a73-480f-be81-011ea45b1f6d](https://github.com/user-attachments/assets/af7d055a-1a73-480f-be81-011ea45b1f6d)
+
+Lien direct (table - local) : [images/table.png](images/table.png)
+
+Lien direct (table - externe) : [https://github.com/user-attachments/assets/17f449ca-ecf1-49c9-a86f-a71b92b1a6df](https://github.com/user-attachments/assets/17f449ca-ecf1-49c9-a86f-a71b92b1a6df)
 
 ## Prérequis
 - Java JDK installé
