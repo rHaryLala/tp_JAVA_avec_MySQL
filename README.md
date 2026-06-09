@@ -39,7 +39,3 @@ Comment lancer le TP
 	1. Télécharger `mysql-connector-j` (jar) et l'ajouter aux **Dependencies** du module (Project Structure → Modules → Dependencies → + JARs or directories).
 	2. Exécuter `src/Main.java` depuis l'IDE.
 
-Remarques
-- Le code lit la configuration de connexion depuis des propriétés système : `tp4.db.url`, `tp4.db.user`, `tp4.db.password`. Par défaut, l'URL est `jdbc:mysql://localhost:3306/tp4` et l'utilisateur `root` sans mot de passe.
-- Place la capture d'écran fournie dans `images/console.png` pour qu'elle s'affiche dans ce README.
-
