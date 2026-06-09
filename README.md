@@ -5,6 +5,10 @@ Ce dépôt contient le TP4 : connexion et manipulation d'une base de données My
 Capture d'exemple (console) :
 
 <img width="461" height="222" alt="image" src="https://github.com/user-attachments/assets/8fc88817-7d14-4e3c-94f7-2b9084129f5d" />
+<img width="388" height="196" alt="image" src="https://github.com/user-attachments/assets/af7d055a-1a73-480f-be81-011ea45b1f6d" />
+<img width="465" height="47" alt="image" src="https://github.com/user-attachments/assets/17f449ca-ecf1-49c9-a86f-a71b92b1a6df" />
+
+
 
 Prérequis
 - Java JDK installé
