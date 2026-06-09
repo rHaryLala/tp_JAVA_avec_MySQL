@@ -17,17 +17,23 @@ public class Test {
 
         while (true) {
             crud.menu();
-            int code = scanner.nextInt();
+            int code;
+            try {
+                code = Integer.parseInt(scanner.nextLine().trim());
+            } catch (NumberFormatException nfe) {
+                System.err.println("Operation invalide !");
+                continue;
+            }
 
             switch (code) {
                 case 1:
-                    crud.ajouter(connection);
+                    crud.ajouter(connection, scanner);
                     break;
                 case 2:
-                    crud.modifier(connection);
+                    crud.modifier(connection, scanner);
                     break;
                 case 3:
-                    crud.supprimer(connection);
+                    crud.supprimer(connection, scanner);
                     break;
                 case 4:
                     crud.afficher(connection);
