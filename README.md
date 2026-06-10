@@ -1,6 +1,6 @@
 ﻿# TP Java avec MySQL
 
-Ce dépôt contient le TP4 : connexion et manipulation d'une base de données MySQL (ajout, modification, suppression, consultation) depuis un programme Java simple.
+Ce dépôt contient le TP4 : connexion et manipulation d'une base de données MySQL (ajout, modification, suppression, consultation) via une interface graphique Java Swing.
 
 ## Captures d'écran
 Placez vos captures dans le dossier `images/` et nommez-les comme ci-dessous pour qu'elles s'affichent correctement :
@@ -8,6 +8,7 @@ Placez vos captures dans le dossier `images/` et nommez-les comme ci-dessous pou
 - `images/console.png` — sortie console (exécution de l'application)
 - `images/phpmyadmin.png` — écran phpMyAdmin (création de la base)
 - `images/table.png` — structure/ligne de la table `employe`
+- `images/interface-graphique.svg` — interface graphique Swing de gestion des employes
 
 Si une image ne s'affiche pas dans le rendu Markdown, cliquez sur le lien direct ci-dessous pour l'ouvrir.
 
@@ -34,6 +35,10 @@ Exemple (phpMyAdmin) :
 Exemple (table) :
 
 ![Table employe](images/table.png)
+
+Exemple (interface graphique) :
+
+![Interface graphique Swing](images/interface-graphique.svg)
 
 ## Prérequis
 - Java JDK installé
@@ -63,7 +68,7 @@ CREATE TABLE IF NOT EXISTS employe (
 1. Ouvrez le dossier du projet (`Test`) dans IntelliJ (doit contenir `pom.xml`).
 2. Si IntelliJ propose d'**Importer les changements Maven**, acceptez. Sinon ouvrez **View → Tool Windows → Maven** et cliquez sur **Reload All Maven Projects**.
 3. Vérifiez que Laragon/MySQL est démarré et que la base `tp4` existe.
-4. Ouvrez `src/Main.java` et exécutez la classe `Main`.
+4. Ouvrez `src/Main.java` et exécutez la classe `Main`. Une fenêtre graphique s'ouvre avec le tableau des employes et le formulaire de gestion.
 
 ### Sans Maven (ajout manuel du driver)
 1. Téléchargez le driver MySQL (`mysql-connector-j`) depuis le site officiel.
@@ -75,7 +80,8 @@ CREATE TABLE IF NOT EXISTS employe (
   - URL : `jdbc:mysql://localhost:3306/tp4?useSSL=false&serverTimezone=UTC`
   - utilisateur : `root`
   - mot de passe : vide
-- Pour autoriser des valeurs contenant des espaces (ex. "Hary Lala"), le programme lit maintenant les champs avec `Scanner.nextLine()`.
+- L'interface graphique est basée sur Swing, donc elle fonctionne avec le JDK sans ajout de librairie GUI.
+- L'ancien mode console reste disponible dans `db.Test` si vous souhaitez encore l'utiliser pour comparer.
 
 ## Où placer les captures
 Créez un dossier `images` à la racine du projet et placez-y vos captures :
@@ -86,7 +92,8 @@ Test/
 ├─ images/
 │  ├─ console.png
 │  ├─ phpmyadmin.png
-│  └─ table.png
+│  ├─ table.png
+│  └─ interface-graphique.svg
 ├─ pom.xml
 └─ README.md
 ```

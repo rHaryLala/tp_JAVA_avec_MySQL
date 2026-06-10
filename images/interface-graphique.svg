@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fbfcfe"/>
+      <stop offset="100%" stop-color="#eef2f7"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 30px Segoe UI, Arial, sans-serif; fill: #1f2937; }
+      .sub { font: 400 16px Segoe UI, Arial, sans-serif; fill: #5f6b7a; }
+      .section { font: 700 16px Segoe UI, Arial, sans-serif; fill: #2d3748; }
+      .label { font: 600 15px Segoe UI, Arial, sans-serif; fill: #2b3340; }
+      .table { font: 600 14px Segoe UI, Arial, sans-serif; fill: #334155; }
+      .cell { font: 400 14px Segoe UI, Arial, sans-serif; fill: #1f2937; }
+      .btn { font: 700 14px Segoe UI, Arial, sans-serif; fill: #1f2937; }
+      .status { font: 400 15px Segoe UI, Arial, sans-serif; fill: #44515f; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="724" rx="10" fill="#ffffff" stroke="#d7dde5"/>
+
+  <text x="30" y="68" class="title">Gestion des employes</text>
+  <text x="30" y="98" class="sub">Ajouter, modifier, supprimer et consulter les enregistrements sans passer par la console.</text>
+  <text x="30" y="132" class="status">Le champ matricule est obligatoire.</text>
+
+  <rect x="28" y="150" width="570" height="535" rx="4" fill="#ffffff" stroke="#cfd6df"/>
+  <rect x="28" y="150" width="570" height="28" fill="#f6f8fb" stroke="#cfd6df"/>
+  <text x="40" y="170" class="section">Formulaire</text>
+
+  <text x="45" y="212" class="label">Matricule</text>
+  <rect x="210" y="192" width="345" height="28" fill="#ffffff" stroke="#b9c2cf"/>
+  <text x="214" y="212" class="cell">1</text>
+
+  <text x="45" y="266" class="label">Nom</text>
+  <rect x="210" y="246" width="345" height="28" fill="#ffffff" stroke="#b9c2cf"/>
+  <text x="214" y="266" class="cell">Hary Lala</text>
+
+  <text x="45" y="320" class="label">Prenom</text>
+  <rect x="210" y="300" width="345" height="28" fill="#ffffff" stroke="#b9c2cf"/>
+  <text x="214" y="320" class="cell">Hary</text>
+
+  <text x="45" y="374" class="label">Date de naissance</text>
+  <rect x="210" y="354" width="345" height="28" fill="#ffffff" stroke="#b9c2cf"/>
+  <text x="214" y="374" class="cell">09 novembre 2001</text>
+
+  <text x="45" y="428" class="label">Ville</text>
+  <rect x="210" y="408" width="345" height="28" fill="#ffffff" stroke="#b9c2cf"/>
+  <text x="214" y="428" class="cell">Antsiranana</text>
+
+  <text x="45" y="482" class="label">Salaire</text>
+  <rect x="210" y="462" width="345" height="28" fill="#ffffff" stroke="#b9c2cf"/>
+  <text x="214" y="482" class="cell">1500000</text>
+
+  <rect x="28" y="603" width="78" height="29" fill="#e9edf2" stroke="#b6c0cc"/>
+  <rect x="117" y="603" width="78" height="29" fill="#e9edf2" stroke="#b6c0cc"/>
+  <rect x="205" y="603" width="92" height="29" fill="#e9edf2" stroke="#b6c0cc"/>
+  <rect x="306" y="603" width="92" height="29" fill="#e9edf2" stroke="#b6c0cc"/>
+  <rect x="407" y="603" width="58" height="29" fill="#e9edf2" stroke="#b6c0cc"/>
+  <text x="44" y="622" class="btn">Ajouter</text>
+  <text x="128" y="622" class="btn">Modifier</text>
+  <text x="223" y="622" class="btn">Supprimer</text>
+  <text x="329" y="622" class="btn">Actualiser</text>
+  <text x="419" y="622" class="btn">Vider</text>
+
+  <rect x="618" y="150" width="554" height="535" rx="4" fill="#ffffff" stroke="#cfd6df"/>
+  <rect x="618" y="150" width="554" height="28" fill="#f6f8fb" stroke="#cfd6df"/>
+  <text x="630" y="170" class="section">Liste des employes</text>
+
+  <rect x="631" y="190" width="518" height="28" fill="#f3f6fb" stroke="#b6c0cc"/>
+  <line x1="712" y1="190" x2="712" y2="218" stroke="#b6c0cc"/>
+  <line x1="780" y1="190" x2="780" y2="218" stroke="#b6c0cc"/>
+  <line x1="934" y1="190" x2="934" y2="218" stroke="#b6c0cc"/>
+  <line x1="1046" y1="190" x2="1046" y2="218" stroke="#b6c0cc"/>
+  <text x="639" y="209" class="table">Matricule</text>
+  <text x="728" y="209" class="table">Nom</text>
+  <text x="796" y="209" class="table">Prenom</text>
+  <text x="947" y="209" class="table">Date naiss...</text>
+  <text x="1058" y="209" class="table">Ville</text>
+  <text x="1120" y="209" class="table">Salaire</text>
+
+  <rect x="631" y="218" width="518" height="32" fill="#dbe7f6" stroke="#b6c0cc"/>
+  <line x1="712" y1="218" x2="712" y2="250" stroke="#b6c0cc"/>
+  <line x1="780" y1="218" x2="780" y2="250" stroke="#b6c0cc"/>
+  <line x1="934" y1="218" x2="934" y2="250" stroke="#b6c0cc"/>
+  <line x1="1046" y1="218" x2="1046" y2="250" stroke="#b6c0cc"/>
+  <text x="639" y="239" class="cell">1</text>
+  <text x="718" y="239" class="cell">Hary Lala</text>
+  <text x="788" y="239" class="cell">Hary</text>
+  <text x="943" y="239" class="cell">09 novemb...</text>
+  <text x="1056" y="239" class="cell">Antsiranana</text>
+  <text x="1120" y="239" class="cell">1500000</text>
+
+  <rect x="631" y="250" width="518" height="32" fill="#ffffff" stroke="#b6c0cc"/>
+  <line x1="712" y1="250" x2="712" y2="282" stroke="#b6c0cc"/>
+  <line x1="780" y1="250" x2="780" y2="282" stroke="#b6c0cc"/>
+  <line x1="934" y1="250" x2="934" y2="282" stroke="#b6c0cc"/>
+  <line x1="1046" y1="250" x2="1046" y2="282" stroke="#b6c0cc"/>
+  <text x="639" y="271" class="cell">2</text>
+  <text x="718" y="271" class="cell">Ranaivo</text>
+  <text x="788" y="271" class="cell">Andry Ny...</text>
+  <text x="943" y="271" class="cell">03 avril 2004</text>
+  <text x="1056" y="271" class="cell">Antananarivo</text>
+  <text x="1120" y="271" class="cell">2000000</text>
+</svg>
